@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
   --cor-fundo:#CDA0C3;
   --cor-destaque:#52112C;
   --cor-texto:#FEFEFE;
+}
+
+*{
+  margin: 0;
+  padding:0;
 }
 
 body{
@@ -11,6 +18,10 @@ body{
 
 .apresentacao{
   display: flex;
+}
+
+.apresentacao__conteudo__titulo{
+  font-family: 'Krona One', sans-serif;
 }
 
 strong{
