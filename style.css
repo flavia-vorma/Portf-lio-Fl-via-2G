@@ -20,8 +20,19 @@ body{
   display: flex;
 }
 
+.apresentacao__conteudo{
+  display: flex;
+  width: 615px;
+}
+
 .apresentacao__conteudo__titulo{
+  font-size: 36px;
   font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 strong{
@@ -33,7 +44,7 @@ a{
   color: var(--cor-texto);
   padding: 15px 40px;
   margin: 10px 5px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .foto{
