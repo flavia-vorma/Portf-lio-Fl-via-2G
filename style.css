@@ -39,12 +39,22 @@ strong{
   color: var(--cor-destaque);
 }
 
-a{
-  background-color: var(--cor-destaque);
+.apresentacao__links{
+  display: flex;
+  flex-direction: column;
+}
+
+.apresentacao__links__link{
+  border: 2px solid var(--cor-destaque);
+  width: 378px;
+  text-align: center;
   color: var(--cor-texto);
-  padding: 15px 40px;
-  margin: 10px 5px;
-  border-radius: 5px;
+  padding: 21.5px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .foto{
